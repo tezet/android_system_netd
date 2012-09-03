@@ -24,11 +24,11 @@
 #include <net/if.h>
 #include <utils/List.h>
 
-#define HOSTAPD_SERVICE_NAME "hostap_wrapper"
+#define HOSTAPD_SERVICE_NAME "hostapd_bin"
 #define HOSTAPD_STATE_PROP "init.svc." HOSTAPD_SERVICE_NAME
 #define AP_WAKE_LOCK "hotspot_wake_lock"
 
-#define HOSTAPD_CONF_TEMPLATE_FILE "/system/etc/wifi/softap/hostapd.conf"
+#define HOSTAPD_CONF_TEMPLATE_FILE "/system/etc/wifi/hostapd.conf"
 #define HOSTAPD_CONF_FILE "/data/misc/wifi/hostapd.conf"
 
 #define HOSTAPD_IFUP_WAIT_RETRIES 20
